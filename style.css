@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color:#212330; 
+    font-family: 'Asap', sans-serif; 
+}
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 20px 0px;
+    /* font-family: 'Asap', sans-serif; */
+    background-color: white;
+}
+.scoreboard {
+    text-align: center;
+    color: white;
+    border: solid white 3px;
+    margin-top: 20px;
+    border-radius: 4px;
+    width: 13%;
+    font-size: 51px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 17px;
+
+}
+.label{
+    border: solid rgb(204, 2, 2) 2px;
+    background-color: rgb(204, 2, 2);
+    color:white;
+    font-size: 12px;
+    font-weight: bold;
+}
+#user {
+    width: 50px;
+    position: absolute;
+    left: 42%;
+    top: 134px;
+}
+#comp{
+    width: 50px;
+    position: absolute;
+    right: 42%;
+    top: 134px;
+}
+.action {
+    text-align: center;
+    color: white;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 27px;
+    margin-top: 13px;
+}
+.images{
+    text-align: center;
+}
+
+.img
+{
+ border: solid white 3px;
+ border-radius: 50%;
+ margin-right: 12px;
+ padding: 9px;   
+}
+
+.result{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.green{
+    border-color: green;
+}
+.red{
+    border-color: red;
+}
+.grey{
+    border-color: gray;
+}
