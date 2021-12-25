@@ -53,7 +53,7 @@ function win (userchoice,computerchoice){
           userscore =0
           computerscore =0
           user_score.textContent = 0
-          prompt("!!!!YOU WIN!!!!")
+          alert("!!!!YOU WIN!!!!")
           
           
 
@@ -74,7 +74,7 @@ function lost(userchoice,computerchoice){
         userscore =0
         computerscore =0
         user_score.textContent = 0
-        prompt("!!!!YOU LOOSE!!!!")
+        alert("!!!!YOU LOOSE!!!!")
         
         
 
@@ -97,7 +97,7 @@ function draw(userchoice,computerchoice)
         userscore =0
         computerscore =0
         user_score.textContent = 0
-        prompt("!!!!DRAW!!!!")
+        alert("!!!!DRAW!!!!")
         
         
 
